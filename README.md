@@ -81,7 +81,7 @@ To set up your python environment to run the code in this repository, follow the
 	activate drlnd
 	```
 
-2. Install swig. Instructions [here](https://anaconda.org/anaconda/swig).
+2. Install [swig](https://anaconda.org/anaconda/swig).
 
 3. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.  
 	- Next, install the **classic control** environment group by following the instructions [here](https://github.com/openai/gym#classic-control).
