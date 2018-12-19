@@ -2,7 +2,7 @@
 
 ### Learning Algorithm
 
-A Deep Q-Network (DQN) is applied to solve the environment.  We replicate the DQN algorithm from the [LunarLander](https://github.com/atlas604/deep-reinforcement-learning/tree/master/dqn) environment as it has shown promising results.  
+A Deep Q-Network (DQN) is applied to solve the environment.  We replicate the DQN algorithm from the [LunarLander](https://github.com/atlas604/deep-reinforcement-learning/tree/master/dqn) environment as it was recommended and has shown promising results.  
 
 A Deep Q-network allows the agent to sample the environment by performing actions and storing the experience in memory.  The goal of the agent is to interact with the environment and select actions that maximize rewards.  
 
