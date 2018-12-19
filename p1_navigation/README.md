@@ -34,7 +34,7 @@ The task is episodic, once the agent gets an average score of +13 over 100 conse
 
 2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file.
 
-3. Install the required dependencies if you haven't already, instructions [here](https://github.com/atlas604/deep-reinforcement-learning/blob/master/README.md#dependencies).
+3. Install the required dependencies if you haven't already. Instructions [here](https://github.com/atlas604/deep-reinforcement-learning/blob/master/README.md#dependencies).
 
 
 ### Instructions
