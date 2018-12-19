@@ -16,3 +16,11 @@ The same hyperparameters from the LunarLander exercise are also used in this imp
 
 
 ### Ideas for Future Work
+
+Since the environment and interactions is rather simple, the hyperparameters can definitely be optimized to improve the learning rate of the agent.  Perhaps we can also modify the network architecture to speed up how the agent learns and further minimize variance in future episodes.  
+
+We want the agent to avoid being fixated on one region of the state space or reinforcing the same action over and over. 
+
+Other implementations such as prioritized experience replay, Double DQN and Dueling DQN, or prioritizing supervised learning could be explored to find a more robust policy.    
+
+
