@@ -8,7 +8,7 @@ A Deep Q-network allows the agent to sample the environment by performing action
 
 The implementation produces a Q-value for every possible action in a single forward pass and uses the vector to take an action (stochastically or choosing the one with the maximum value).  
 
-We use a neural network with an input layer size of 37 which is equivalent to the action space of the environment and an output layer size of 4 which is equivalent to the number of actions the agent is able to perform (Up, Down, Left Right).  
+We use a neural network with an input layer size of 37 which is equivalent to the action space of the environment and an output layer size of 4 which is equivalent to the number of actions the agent is able to perform (Up, Down, Left, Right).  
 
 Using this algorithm, the agent was able to complete the environment in less than 500 episodes.  
 
