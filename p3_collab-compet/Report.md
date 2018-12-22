@@ -39,7 +39,7 @@ In each episode, both agent's experience(observations and actions) are combined 
 
 ### Ideas for Future Work
 
-The DDPG hyperparameters can definitely be optimized to improve the model.  With optimal values the agent can most likely be trained even quicker.  
+The DDPG hyperparameters can definitely be optimized to improve the model.  With optimal values, the agent can most likely be trained even quicker and demonstrate a smoother learning progression.  
 
 Other actor-critic models should also be explored because some may consider ddpg not a true actor-critic algorithm.  
 
