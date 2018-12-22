@@ -15,7 +15,7 @@ Surprisingly, the model was able to be solve the environment in 943 episodes wit
 ![Attempt 1](./img/attempt01.png)
 
 
-DDPG Algorithm
+**DDPG Algorithm**
 
 ![ddpg algorithm](./img/ddpg-algorithm.png)
 
