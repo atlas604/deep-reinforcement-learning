@@ -9,7 +9,7 @@ In DDPG, two neural networks are used instead of one, an actor and a critic.  Th
 
 My first attempt was to use mostly default parameters to see how the model interacts with the [version 1] environment.  
 
-![Attempt 1](/img/attempt%201.png)
+![Attempt 1](./img/attempt%201.png)
 
 As you can see, the model had performed extremely slow and poorly while having extremely high variance.  Perhaps it could learn to solve the environment with more episodes, but this was way too inefficient.  
 
@@ -17,7 +17,7 @@ After numerous attempts at tuning and testing the model, I found significant imp
 
 The DDPG code was modified to gather the data from multiple agents simultaneously and add their experience to the replay buffer.  
 
-![Attempt 2](/img/attempt%202.png)
+![Attempt 2](./img/attempt%202.png)
 
 Hyperparameters chosen:
 
