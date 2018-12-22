@@ -5,6 +5,7 @@
 The learning algorithm implemented is a Deep Deterministic Policy Gradient (DDPG) model.   Specifically, a modified [ddpg-pendulum](https://github.com/atlas604/deep-reinforcement-learning/tree/master/ddpg-pendulum) model is used to solve the environment.   
 
 Unlike the Deep Q Network (DQN) algorithms, DDPG isn’t constrained with discrete and low-dimensional action spaces.  This is critical for our purposes of interacting with continuous action spaces.  
+
 In DDPG, two neural networks are used instead of one, an actor and a critic.  The actor is used to approximate the optimal policy deterministically, which is essentially what it perceives as the best possible action.  The critic on the other hand uses the actor’s decision to evaluate the optimal action value function.
 
 My first attempt was to use mostly default parameters to see how the model interacts with the [version 1] environment.  
