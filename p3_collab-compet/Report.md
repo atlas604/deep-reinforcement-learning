@@ -43,4 +43,4 @@ The DDPG hyperparameters can definitely be optimized to improve the model.  With
 
 Other actor-critic models should also be explored because some may consider ddpg not a true actor-critic algorithm.  
 
-Other implementations of separate actor and critic neural networks for each agent should be tested to see how it affects performance.  However having additional neural networks would require more computational resources.  
+Other implementations of separate actor and critic neural networks for each agent should also be tested to see how it affects performance.  However having additional neural networks would require more computational resources.  
