@@ -10,7 +10,7 @@ In DDPG, two neural networks are used instead of one, an actor and a critic.  Th
 
 In this implementation, I apply the same DDPG model architecture used in the previous project(Continuous Control). Since the model was already adjusted to collect the data multiple agents simultaneously, it was a perfect starting point for this project.  
 
-Surprisingly, the model was able to be solve the environment in 943 episodes with no adjustments.     
+Evidently, the model was able to be solve the environment in 943 episodes with no adjustments.     
 
 ![Attempt 1](./img/attempt01.png)
 
